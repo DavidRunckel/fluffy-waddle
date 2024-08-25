@@ -1,0 +1,7 @@
+IMPORTANT NOTE: This project was from my CS1302 course so while all the code regarding making the application function is my intellectual property, the concept was derived from instructiion provided by Dr. Barnes (Bradley J. Barnes) and Dr. Cotterell (Michael E. Cotterell).
+
+fluffy-waddle is the code name for one of our homeworks in the course. We were given the work to enhance our understanding of functional interfaces and generics. The file LambdaFun is the file where the bulk of the code pertaining to the lesson is housed. Within LambaFun is the main method that is executed along with the generic methods printlnMatches and printlnMappedMatches.
+
+In the main method is 5 calls to the above methods using data from arrays mystrings and inbox. inbox uses the Email class which is the other java file. 4 of the calls demonstrate how users can filter the data of mystrings while the final call showcases the filtering ability of the inbox. To call the method printlnMatches, it uses the functional interface Predicate<T> and its singular method test(). To create the filter the user would like, they create a Predicate object that uses a lamba to filter for example if the string has a length of less than 6 which is showcased in call 2.
+
+The expected.md file was used by me to check my work when the program was compiled and ran to make sure methods and filtering code was working.
